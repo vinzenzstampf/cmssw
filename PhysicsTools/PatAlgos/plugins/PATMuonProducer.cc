@@ -279,7 +279,8 @@ void PATMuonProducer::produce(edm::Event & iEvent, const edm::EventSetup & iSetu
 
   // MC info
   edm::Handle<edm::ValueMap<reco::MuonSimInfo> > simInfo;
-  bool simInfoIsAvailalbe = iEvent.getByToken(simInfo_,simInfo);
+//  bool simInfoIsAvailalbe = iEvent.getByToken(simInfo_,simInfo);
+//  bool simInfoIsAvailalbe = simInfoIsAvailalbe=false; 
 
   // this will be the new object collection
   std::vector<Muon> * patMuons = new std::vector<Muon>();
