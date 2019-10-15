@@ -113,6 +113,16 @@ egamma8XLegacyEtScaleSysModifier = cms.PSet(
         )
     )
 
+############################################################
+# Modifier to add ID Scale Factors as userFloat reading them
+# from json file
+############################################################
+egammaSFModifier = cms.PSet(
+    modifierName = cms.string('EGammaSFModifier'),
+    filename = cms.string("filename.json")
+)
+
+
 def appendReducedEgammaEnergyScaleAndSmearingModifier(modifiers):
     modifiers.append(reducedEgammaEnergyScaleAndSmearingModifier)
 

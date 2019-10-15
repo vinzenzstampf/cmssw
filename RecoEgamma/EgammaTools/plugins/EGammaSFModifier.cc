@@ -15,6 +15,7 @@ public:
 EGammaSFModifier::EGammaSFModifier(const edm::ParameterSet& conf):
   ModifyObjectValueBase(conf)
 {
+  std::cout<<conf.getParameter<std::string>("filename")<<std::endl;
   std::string sfName="filename";
   if(1){
   }else{

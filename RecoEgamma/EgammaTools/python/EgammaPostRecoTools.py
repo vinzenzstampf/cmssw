@@ -224,7 +224,7 @@ def _setupEgammaEnergyCorrectionsMiniAOD(process,eleSrc,phoSrc,applyEnergyCorrec
     
 
 
-def _setupEgammaPostRECOSequenceMiniAOD(process,applyEnergyCorrections=False,applyVIDOnCorrectedEgamma=False,era="2017-Nov17ReReco",runVID=True,runEnergyCorrections=True,applyEPCombBug=False):
+def _setupEgammaPostRECOSequenceMiniAOD(process,applyEnergyCorrections=False,applyVIDOnCorrectedEgamma=False,runEgammaSF=True,era="2017-Nov17ReReco",runVID=True,runEnergyCorrections=True,applyEPCombBug=False):
     """
     This function loads the calibrated producers calibratedPatElectrons,calibratedPatPhotons, 
     sets VID & other modules to the correct electron/photon source,
@@ -278,7 +278,7 @@ def _setupEgammaPostRECOSequenceMiniAOD(process,applyEnergyCorrections=False,app
         process.heepIDVarValueMaps.dataFormat = 2
 
 
-    from RecoEgamma.EgammaTools.egammaObjectModificationsInMiniAOD_cff import egamma_modifications,egamma8XLegacyEtScaleSysModifier,egamma8XObjectUpdateModifier
+    from RecoEgamma.EgammaTools.egammaObjectModificationsInMiniAOD_cff import egamma_modifications,egamma8XLegacyEtScaleSysModifier,egamma8XObjectUpdateModifier,egammaSFModifier
     from RecoEgamma.EgammaTools.egammaObjectModifications_tools import makeVIDBitsModifier,makeVIDinPATIDsModifier,makeEnergyScaleAndSmearingSysModifier  
     if runVID:
         egamma_modifications.append(makeVIDBitsModifier(process,"egmGsfElectronIDs","egmPhotonIDs"))
@@ -330,6 +330,10 @@ def _setupEgammaPostRECOSequenceMiniAOD(process,applyEnergyCorrections=False,app
             process.egammaScaleSmearTask.add(process.calibratedPatElectrons)
             process.egammaScaleSmearTask.add(process.calibratedPatPhotons)
 
+    if runEgammaSF:
+        print("running SF modifier")
+        egamma_modifications.append(egammaSFModifier)
+
 
 def setupEgammaPostRecoSeq(process,
                            applyEnergyCorrections=False,
@@ -340,6 +344,7 @@ def setupEgammaPostRecoSeq(process,
                            phoIDModules=_defaultPhoIDModules,
                            runVID=True,
                            runEnergyCorrections=True,
+                           runEgammaSF=True,
                            applyEPCombBug=False,
                            autoAdjustParams=True):
 
@@ -364,7 +369,7 @@ def setupEgammaPostRecoSeq(process,
         pass #no auto adjustment needed
 
     if isMiniAOD:
-        _setupEgammaPostRECOSequenceMiniAOD(process,applyEnergyCorrections=applyEnergyCorrections,applyVIDOnCorrectedEgamma=applyVIDOnCorrectedEgamma,era=era,runVID=runVID,runEnergyCorrections=runEnergyCorrections,applyEPCombBug=applyEPCombBug)
+        _setupEgammaPostRECOSequenceMiniAOD(process,applyEnergyCorrections=applyEnergyCorrections,applyVIDOnCorrectedEgamma=applyVIDOnCorrectedEgamma,era=era,runVID=runVID,runEnergyCorrections=runEnergyCorrections,runEgammaSF=runEgammaSF,applyEPCombBug=applyEPCombBug)
     else:
         _setupEgammaPostRECOSequence(process,applyEnergyCorrections=applyEnergyCorrections,applyVIDOnCorrectedEgamma=applyVIDOnCorrectedEgamma,era=era,runVID=runVID,runEnergyCorrections=runEnergyCorrections,applyEPCombBug=applyEPCombBug)
     
@@ -402,7 +407,7 @@ def makeEgammaPATWithUserData(process,eleTag=None,phoTag=None,runVID=True,runEne
     if runEnergyCorrections:
         egamma_modifications.append(makeEnergyScaleAndSmearingSysModifier("calibratedElectrons","calibratedPhotons"))
         egamma_modifications.append(egamma8XLegacyEtScaleSysModifier)
-    
+
     process.egammaPostRecoPatUpdatorTask = cms.Task()
 
     if eleTag:

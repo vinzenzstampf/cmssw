@@ -10,6 +10,7 @@ options = VarParsing.VarParsing ('analysis')
 options.register('isMiniAOD',True,options.multiplicity.singleton,options.varType.bool," whether we are running on miniAOD or not")
 options.register('runVID',True,options.multiplicity.singleton,options.varType.bool," ")
 options.register('runEnergyCorrections',True,options.multiplicity.singleton,options.varType.bool," ")
+options.register('runEgammaSF',True,options.multiplicity.singleton,options.varType.bool," ")
 options.register('applyEnergyCorrections',False,options.multiplicity.singleton,options.varType.bool," ")
 options.register('applyVIDOnCorrectedEgamma',False,options.multiplicity.singleton,options.varType.bool," ")
 options.register('applyEPCombBug',False,options.multiplicity.singleton,options.varType.bool," ")
@@ -64,6 +65,7 @@ setupEgammaPostRecoSeq(process,
                        era=options.era,                    
                        runVID=options.runVID,
                        runEnergyCorrections=options.runEnergyCorrections,
+                       runEgammaSF=options.runEgammaSF,
                        applyEPCombBug=options.applyEPCombBug)
 
 
