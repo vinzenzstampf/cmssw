@@ -119,7 +119,9 @@ egamma8XLegacyEtScaleSysModifier = cms.PSet(
 ############################################################
 egammaSFModifier = cms.PSet(
     modifierName = cms.string('EGammaSFModifier'),
-    filename = cms.string("filename.json")
+    filename     = cms.string("$CMSSW_BASE/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json"),
+    year         = cms.string("2018"),
+    ID           = cms.string("mvaEleID-Fall17-noIso-V2-wp80")
 )
 
 

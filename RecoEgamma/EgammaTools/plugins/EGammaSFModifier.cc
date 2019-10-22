@@ -9,6 +9,9 @@ public:
   
   void modifyObject(pat::Electron& ele) const final;
   void modifyObject(pat::Photon& pho) const final;
+  std::string sfName = conf.getParameter<std::string>("filename");
+  std::string year   = conf.getParameter<std::string>("year"    );
+  std::string ID     = conf.getParameter<std::string>("ID"      );
   
 
 };
@@ -16,12 +19,21 @@ public:
 EGammaSFModifier::EGammaSFModifier(const edm::ParameterSet& conf):
   ModifyObjectValueBase(conf)
 {
-  std::cout<<conf.getParameter<std::string>("filename")<<std::endl;
-  std::string sfName="filename";
+  std::string sfName = conf.getParameter<std::string>("filename");
+  std::string year   = conf.getParameter<std::string>("year"    );
+  std::string ID     = conf.getParameter<std::string>("ID"      );
+
+  std::cout << sfName << std::endl;
+  std::cout << year   << std::endl;
+  std::cout << ID     << std::endl;
+
   if(1){
   }else{
     throw cms::Exception("ConfigError") <<"Error constructing EGammaSFModifier, sf file name "<<sfName<<" not valid";
   } 
+  //if not (year=="2016" or year=="2017" or year=="2018"){
+    //throw cms::Exception("ConfigError") <<"Error constructing EGammaSFModifier, year "<< year << " not valid" << std::endl;
+  //} 
 
 }
 
@@ -35,7 +47,10 @@ void EGammaSFModifier::modifyObject(pat::Electron& ele)const
   std::string pt_str;
   std::string eta_str;
 
-  std::string year = "2018";
+  SF_Reader sf;
+  sf.read_json("./json_converter_egID/jsons/run2_eleIDs.json");
+  //std::string year = "2018";
+  
   std::string ID = "mvaEleID-Fall17-noIso-V2-wp80";
 
   //// FIND RIGHT PT BIN
@@ -58,9 +73,6 @@ void EGammaSFModifier::modifyObject(pat::Electron& ele)const
   if (pt > 100.0 && pt < 200.0) {pt_str = "pt:[100.0,200.0]";}
   if (pt > 200.0 && pt < 500.0) {pt_str = "pt:[200.0,500.0]";}
 
-  
-  SF_Reader sf;
-  sf.read_json("./json_converter_egID/jsons/run2_eleIDs.json");
 
   double value = sf.value (year, ID, pt_str, eta_str);
   double error = sf.error (year, ID, pt_str, eta_str);
