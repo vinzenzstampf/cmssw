@@ -119,3 +119,5 @@ if options.unscheduled:
     print "  converting to unscheduled"
     from FWCore.ParameterSet.Utilities import convertToUnscheduled
     process=convertToUnscheduled(process)
+
+# process.eg_sf_modifier = cms.EDProducer("ModifiedPhotonProducer",  
