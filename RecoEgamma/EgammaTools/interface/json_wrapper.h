@@ -12,7 +12,7 @@ using namespace std;
 class SF_Reader {
     map< string, map< string, map< string, map< string, map<string, double> > > > > map_sf;
 
-    public:
+public:
     void read_json(string);
     double value (string, string, string, string);
     double error (string, string, string, string);

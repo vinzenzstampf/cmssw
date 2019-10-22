@@ -2,3 +2,747 @@ running SF modifier
 EgammaPostRecoTools:
   running with GT: 94X_dataRun2_ReReco_EOY17_v2
   running residual E corr: EgammaAnalysis/ElectronTools/data/ScalesSmearings/Run2017_17Nov2017_v1_ele_unc
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 63.0651, pt_str: pt:[50.0,100.0], eta: -0.988092, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 63.0002, pt_str: pt:[50.0,100.0], eta: -1.17854, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 60.7712, pt_str: pt:[50.0,100.0], eta: 0.699296, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 47.6308, pt_str: pt:[35.0,50.0], eta: 1.84748, eta_str: eta:[1.566,2.0]
+user float :: value: 0.932224, error: 0.00633501
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 90.4243, pt_str: pt:[50.0,100.0], eta: 0.0981215, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 42.5263, pt_str: pt:[35.0,50.0], eta: -0.299653, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 11.0086, pt_str: pt:[10.0,20.0], eta: 2.03341, eta_str: eta:[2.0,2.5]
+user float :: value: 0.968912, error: 0.0274307
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 65.4622, pt_str: pt:[50.0,100.0], eta: 1.03782, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 57.4326, pt_str: pt:[50.0,100.0], eta: 0.614853, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 65.1434, pt_str: pt:[50.0,100.0], eta: -1.68882, eta_str: eta:[-2.0,-1.566]
+user float :: value: 0.953917, error: 0.014835
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 53.1817, pt_str: pt:[50.0,100.0], eta: -2.42209, eta_str: eta:[-2.5,-2.0]
+user float :: value: 0.945679, error: 0.0138411
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 97.3629, pt_str: pt:[50.0,100.0], eta: -0.373964, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 29.5775, pt_str: pt:[20.0,35.0], eta: 0.76187, eta_str: eta:[0.0,0.8]
+user float :: value: 0.959239, error: 0.0174884
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 63.8062, pt_str: pt:[50.0,100.0], eta: -1.31531, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 27.3861, pt_str: pt:[20.0,35.0], eta: 0.474314, eta_str: eta:[0.0,0.8]
+user float :: value: 0.959239, error: 0.0174884
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 114.965, pt_str: pt:[100.0,200.0], eta: -1.81963, eta_str: eta:[-2.0,-1.566]
+user float :: value: 0.981651, error: 0.0230543
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 78.6037, pt_str: pt:[50.0,100.0], eta: -1.66128, eta_str: eta:[-2.0,-1.566]
+user float :: value: 0.953917, error: 0.014835
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 46.3462, pt_str: pt:[35.0,50.0], eta: 1.99834, eta_str: eta:[1.566,2.0]
+user float :: value: 0.932224, error: 0.00633501
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 52.7768, pt_str: pt:[50.0,100.0], eta: -0.852779, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 14.0838, pt_str: pt:[10.0,20.0], eta: 2.07201, eta_str: eta:[2.0,2.5]
+user float :: value: 0.968912, error: 0.0274307
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 33.6085, pt_str: pt:[20.0,35.0], eta: -1.13614, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.944444, error: 0.0257588
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 125.165, pt_str: pt:[100.0,200.0], eta: 0.244377, eta_str: eta:[0.0,0.8]
+user float :: value: 0.979665, error: 0.0103461
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 44.0662, pt_str: pt:[35.0,50.0], eta: 1.14288, eta_str: eta:[0.8,1.444]
+user float :: value: 0.954717, error: 0.0055233
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 24.8728, pt_str: pt:[20.0,35.0], eta: 2.08044, eta_str: eta:[2.0,2.5]
+user float :: value: 0.946629, error: 0.030247
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 84.7753, pt_str: pt:[50.0,100.0], eta: -0.376347, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 44.7698, pt_str: pt:[35.0,50.0], eta: -1.02788, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.95398, error: 0.0055233
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 84.9245, pt_str: pt:[50.0,100.0], eta: 0.451171, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 49.8498, pt_str: pt:[35.0,50.0], eta: 0.520533, eta_str: eta:[0.0,0.8]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 69.5885, pt_str: pt:[50.0,100.0], eta: 1.07078, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 60.8411, pt_str: pt:[50.0,100.0], eta: 0.774717, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 52.1532, pt_str: pt:[50.0,100.0], eta: 0.122433, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 32.0227, pt_str: pt:[20.0,35.0], eta: -1.8594, eta_str: eta:[-2.0,-1.566]
+user float :: value: 0.918314, error: 0.0244937
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 83.064, pt_str: pt:[50.0,100.0], eta: 0.426077, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 42.2487, pt_str: pt:[35.0,50.0], eta: 0.909397, eta_str: eta:[0.8,1.444]
+user float :: value: 0.954717, error: 0.0055233
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 60.6611, pt_str: pt:[50.0,100.0], eta: 0.319696, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 58.2231, pt_str: pt:[50.0,100.0], eta: 1.02263, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 54.7371, pt_str: pt:[50.0,100.0], eta: 1.46876, eta_str: eta:[1.444,1.566]
+user float :: value: 1, error: 1
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 51.4177, pt_str: pt:[50.0,100.0], eta: 0.782999, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 68.104, pt_str: pt:[50.0,100.0], eta: -0.814201, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 59.119, pt_str: pt:[50.0,100.0], eta: -0.87663, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 56.3284, pt_str: pt:[50.0,100.0], eta: 1.61405, eta_str: eta:[1.566,2.0]
+user float :: value: 0.959677, error: 0.0148881
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 49.3751, pt_str: pt:[35.0,50.0], eta: 0.653178, eta_str: eta:[0.0,0.8]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 45.8498, pt_str: pt:[35.0,50.0], eta: 2.24048, eta_str: eta:[2.0,2.5]
+user float :: value: 0.939164, error: 0.0101207
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 67.7337, pt_str: pt:[50.0,100.0], eta: 0.842618, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 42.3429, pt_str: pt:[35.0,50.0], eta: 1.74813, eta_str: eta:[1.566,2.0]
+user float :: value: 0.932224, error: 0.00633501
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 22.5595, pt_str: pt:[20.0,35.0], eta: -0.309359, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.959072, error: 0.0174884
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 21.1207, pt_str: pt:[20.0,35.0], eta: 0.549327, eta_str: eta:[0.0,0.8]
+user float :: value: 0.959239, error: 0.0174884
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 55.7712, pt_str: pt:[50.0,100.0], eta: -0.587178, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 30.4448, pt_str: pt:[20.0,35.0], eta: 1.44438, eta_str: eta:[1.444,1.566]
+user float :: value: 1, error: 1
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 64.839, pt_str: pt:[50.0,100.0], eta: -0.72947, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 59.5455, pt_str: pt:[50.0,100.0], eta: -0.280375, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 112.694, pt_str: pt:[100.0,200.0], eta: 1.10628, eta_str: eta:[0.8,1.444]
+user float :: value: 0.978049, error: 0.0164334
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 29.1557, pt_str: pt:[20.0,35.0], eta: 1.8055, eta_str: eta:[1.566,2.0]
+user float :: value: 0.90873, error: 0.0244937
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 67.1677, pt_str: pt:[50.0,100.0], eta: -0.615761, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 60.4251, pt_str: pt:[50.0,100.0], eta: -0.661479, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 67.3623, pt_str: pt:[50.0,100.0], eta: 1.60893, eta_str: eta:[1.566,2.0]
+user float :: value: 0.959677, error: 0.0148881
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 55.6105, pt_str: pt:[50.0,100.0], eta: 2.23367, eta_str: eta:[2.0,2.5]
+user float :: value: 0.907317, error: 0.0138411
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 88.159, pt_str: pt:[50.0,100.0], eta: -2.75292, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 77.3477, pt_str: pt:[50.0,100.0], eta: -1.05143, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 38.2579, pt_str: pt:[35.0,50.0], eta: 0.0343958, eta_str: eta:[0.0,0.8]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 19.9969, pt_str: pt:[10.0,20.0], eta: -0.0917054, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.94795, error: 0.0318692
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 94.1131, pt_str: pt:[50.0,100.0], eta: 0.719744, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 59.03, pt_str: pt:[50.0,100.0], eta: 0.516003, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 66.1477, pt_str: pt:[50.0,100.0], eta: 2.85946, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 68.9437, pt_str: pt:[50.0,100.0], eta: -2.55645, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 76.8288, pt_str: pt:[50.0,100.0], eta: 0.866878, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 48.1546, pt_str: pt:[35.0,50.0], eta: 1.70702, eta_str: eta:[1.566,2.0]
+user float :: value: 0.932224, error: 0.00633501
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 64.7177, pt_str: pt:[50.0,100.0], eta: 0.521311, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 55.3431, pt_str: pt:[50.0,100.0], eta: -0.0485964, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 47.1833, pt_str: pt:[35.0,50.0], eta: 0.296563, eta_str: eta:[0.0,0.8]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 46.5045, pt_str: pt:[35.0,50.0], eta: -1.23579, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.95398, error: 0.0055233
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 44.7541, pt_str: pt:[35.0,50.0], eta: -0.529656, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 53.0418, pt_str: pt:[50.0,100.0], eta: -2.59785, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 39.9064, pt_str: pt:[35.0,50.0], eta: -0.665796, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 81.0356, pt_str: pt:[50.0,100.0], eta: -1.32588, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 44.2005, pt_str: pt:[35.0,50.0], eta: -0.746723, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 119.569, pt_str: pt:[100.0,200.0], eta: 0.923882, eta_str: eta:[0.8,1.444]
+user float :: value: 0.978049, error: 0.0164334
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 13.6846, pt_str: pt:[10.0,20.0], eta: -1.43436, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.99375, error: 0.0205539
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 45.5445, pt_str: pt:[35.0,50.0], eta: 2.71309, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 17.4432, pt_str: pt:[10.0,20.0], eta: -0.214037, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.94795, error: 0.0318692
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 58.0825, pt_str: pt:[50.0,100.0], eta: 0.0814694, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 49.2315, pt_str: pt:[35.0,50.0], eta: -1.07339, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.95398, error: 0.0055233
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 69.6064, pt_str: pt:[50.0,100.0], eta: 2.10653, eta_str: eta:[2.0,2.5]
+user float :: value: 0.907317, error: 0.0138411
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 56.9942, pt_str: pt:[50.0,100.0], eta: 2.00289, eta_str: eta:[2.0,2.5]
+user float :: value: 0.907317, error: 0.0138411
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 83.1667, pt_str: pt:[50.0,100.0], eta: -0.571349, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 50.9152, pt_str: pt:[50.0,100.0], eta: -0.851676, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 67.0611, pt_str: pt:[50.0,100.0], eta: 1.11205, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 56.7455, pt_str: pt:[50.0,100.0], eta: 0.851482, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 78.9949, pt_str: pt:[50.0,100.0], eta: -2.3847, eta_str: eta:[-2.5,-2.0]
+user float :: value: 0.945679, error: 0.0138411
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 13.7547, pt_str: pt:[10.0,20.0], eta: -2.84014, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 61.8146, pt_str: pt:[50.0,100.0], eta: -1.57826, eta_str: eta:[-2.0,-1.566]
+user float :: value: 0.953917, error: 0.014835
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 54.873, pt_str: pt:[50.0,100.0], eta: -0.854422, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 60.9452, pt_str: pt:[50.0,100.0], eta: -2.70828, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 54.357, pt_str: pt:[50.0,100.0], eta: -2.19724, eta_str: eta:[-2.5,-2.0]
+user float :: value: 0.945679, error: 0.0138411
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 108.726, pt_str: pt:[100.0,200.0], eta: 0.143263, eta_str: eta:[0.0,0.8]
+user float :: value: 0.979665, error: 0.0103461
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 43.1848, pt_str: pt:[35.0,50.0], eta: 0.838861, eta_str: eta:[0.8,1.444]
+user float :: value: 0.954717, error: 0.0055233
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 61.7973, pt_str: pt:[50.0,100.0], eta: 1.75634, eta_str: eta:[1.566,2.0]
+user float :: value: 0.959677, error: 0.0148881
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 55.1177, pt_str: pt:[50.0,100.0], eta: 0.969879, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 62.4658, pt_str: pt:[50.0,100.0], eta: -1.03258, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 60.8133, pt_str: pt:[50.0,100.0], eta: -0.692535, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 60.7979, pt_str: pt:[50.0,100.0], eta: -0.838323, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 68.877, pt_str: pt:[50.0,100.0], eta: -0.945629, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 58.43, pt_str: pt:[50.0,100.0], eta: -0.929569, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 47.5987, pt_str: pt:[35.0,50.0], eta: -1.06578, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.95398, error: 0.0055233
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 42.6001, pt_str: pt:[35.0,50.0], eta: 0.704256, eta_str: eta:[0.0,0.8]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 37.7025, pt_str: pt:[35.0,50.0], eta: -0.512471, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 36.4779, pt_str: pt:[35.0,50.0], eta: 1.78428, eta_str: eta:[1.566,2.0]
+user float :: value: 0.932224, error: 0.00633501
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 43.3247, pt_str: pt:[35.0,50.0], eta: 2.25639, eta_str: eta:[2.0,2.5]
+user float :: value: 0.939164, error: 0.0101207
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 63.6777, pt_str: pt:[50.0,100.0], eta: 0.434935, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 30.2683, pt_str: pt:[20.0,35.0], eta: -1.34757, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.944444, error: 0.0257588
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 21.34, pt_str: pt:[20.0,35.0], eta: -0.672322, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.959072, error: 0.0174884
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 92.1937, pt_str: pt:[50.0,100.0], eta: 2.4777, eta_str: eta:[2.0,2.5]
+user float :: value: 0.907317, error: 0.0138411
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 61.1616, pt_str: pt:[50.0,100.0], eta: 0.972824, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 48.4445, pt_str: pt:[35.0,50.0], eta: 2.4348, eta_str: eta:[2.0,2.5]
+user float :: value: 0.939164, error: 0.0101207
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 50.3892, pt_str: pt:[50.0,100.0], eta: -1.70309, eta_str: eta:[-2.0,-1.566]
+user float :: value: 0.953917, error: 0.014835
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 13.7463, pt_str: pt:[10.0,20.0], eta: 2.15886, eta_str: eta:[2.0,2.5]
+user float :: value: 0.968912, error: 0.0274307
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 68.114, pt_str: pt:[50.0,100.0], eta: -2.05954, eta_str: eta:[-2.5,-2.0]
+user float :: value: 0.945679, error: 0.0138411
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 18.9084, pt_str: pt:[10.0,20.0], eta: 0.417406, eta_str: eta:[0.0,0.8]
+user float :: value: 0.982456, error: 0.0318692
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 76.2469, pt_str: pt:[50.0,100.0], eta: 1.47839, eta_str: eta:[1.444,1.566]
+user float :: value: 1, error: 1
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 48.2273, pt_str: pt:[35.0,50.0], eta: 0.988031, eta_str: eta:[0.8,1.444]
+user float :: value: 0.954717, error: 0.0055233
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 82.1782, pt_str: pt:[50.0,100.0], eta: 0.540831, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 42.3301, pt_str: pt:[35.0,50.0], eta: -0.0115477, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 59.1924, pt_str: pt:[50.0,100.0], eta: 0.830832, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 22.5339, pt_str: pt:[20.0,35.0], eta: -1.40324, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.944444, error: 0.0257588
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 40.3789, pt_str: pt:[35.0,50.0], eta: 0.651545, eta_str: eta:[0.0,0.8]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 51.968, pt_str: pt:[50.0,100.0], eta: 1.359, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 17.1692, pt_str: pt:[10.0,20.0], eta: 0.564253, eta_str: eta:[0.0,0.8]
+user float :: value: 0.982456, error: 0.0318692
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 66.1938, pt_str: pt:[50.0,100.0], eta: 1.84786, eta_str: eta:[1.566,2.0]
+user float :: value: 0.959677, error: 0.0148881
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 49.6456, pt_str: pt:[35.0,50.0], eta: 2.85801, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 70.1192, pt_str: pt:[50.0,100.0], eta: 0.983467, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 46.7431, pt_str: pt:[35.0,50.0], eta: 2.73206, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 22.2078, pt_str: pt:[20.0,35.0], eta: 1.01502, eta_str: eta:[0.8,1.444]
+user float :: value: 0.945055, error: 0.0257588
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 67.2114, pt_str: pt:[50.0,100.0], eta: -0.517298, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 58.189, pt_str: pt:[50.0,100.0], eta: -0.439063, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 77.9106, pt_str: pt:[50.0,100.0], eta: 0.652637, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 31.0227, pt_str: pt:[20.0,35.0], eta: -0.399671, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.959072, error: 0.0174884
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 90.0566, pt_str: pt:[50.0,100.0], eta: -0.667942, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 32.333, pt_str: pt:[20.0,35.0], eta: -0.165253, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.959072, error: 0.0174884
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 11.1692, pt_str: pt:[10.0,20.0], eta: -0.197264, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.94795, error: 0.0318692
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 31.2388, pt_str: pt:[20.0,35.0], eta: 0.441505, eta_str: eta:[0.0,0.8]
+user float :: value: 0.959239, error: 0.0174884
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 22.1011, pt_str: pt:[20.0,35.0], eta: -2.62153, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 11.155, pt_str: pt:[10.0,20.0], eta: -2.46142, eta_str: eta:[-2.5,-2.0]
+user float :: value: 0.979275, error: 0.0274307
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 21.3982, pt_str: pt:[20.0,35.0], eta: -2.3452, eta_str: eta:[-2.5,-2.0]
+user float :: value: 0.952448, error: 0.030247
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 63.2417, pt_str: pt:[50.0,100.0], eta: 0.830795, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 59.184, pt_str: pt:[50.0,100.0], eta: 0.489401, eta_str: eta:[0.0,0.8]
+user float :: value: 0.964461, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 90.7351, pt_str: pt:[50.0,100.0], eta: -1.76955, eta_str: eta:[-2.0,-1.566]
+user float :: value: 0.953917, error: 0.014835
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 10.1826, pt_str: pt:[10.0,20.0], eta: 2.1816, eta_str: eta:[2.0,2.5]
+user float :: value: 0.968912, error: 0.0274307
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 57.9501, pt_str: pt:[50.0,100.0], eta: 1.90678, eta_str: eta:[1.566,2.0]
+user float :: value: 0.959677, error: 0.0148881
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 47.7442, pt_str: pt:[35.0,50.0], eta: 0.784297, eta_str: eta:[0.0,0.8]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 64.2004, pt_str: pt:[50.0,100.0], eta: -1.17527, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 57.944, pt_str: pt:[50.0,100.0], eta: -0.768975, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 90.2358, pt_str: pt:[50.0,100.0], eta: -1.02704, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 40.808, pt_str: pt:[35.0,50.0], eta: -1.54476, eta_str: eta:[-1.566,-1.444]
+user float :: value: 1, error: 1
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 43.114, pt_str: pt:[35.0,50.0], eta: -0.685436, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 33.9394, pt_str: pt:[20.0,35.0], eta: 1.87415, eta_str: eta:[1.566,2.0]
+user float :: value: 0.90873, error: 0.0244937
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 16.1112, pt_str: pt:[10.0,20.0], eta: -2.84156, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 58.1393, pt_str: pt:[50.0,100.0], eta: 2.27767, eta_str: eta:[2.0,2.5]
+user float :: value: 0.907317, error: 0.0138411
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 80.169, pt_str: pt:[50.0,100.0], eta: -0.0669516, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 51.5138, pt_str: pt:[50.0,100.0], eta: -0.523559, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 83.0338, pt_str: pt:[50.0,100.0], eta: 1.21306, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 32.3678, pt_str: pt:[20.0,35.0], eta: -0.214929, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.959072, error: 0.0174884
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 16.4611, pt_str: pt:[10.0,20.0], eta: 0.675454, eta_str: eta:[0.0,0.8]
+user float :: value: 0.982456, error: 0.0318692
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 108.303, pt_str: pt:[100.0,200.0], eta: 0.379228, eta_str: eta:[0.0,0.8]
+user float :: value: 0.979665, error: 0.0103461
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 39.0407, pt_str: pt:[35.0,50.0], eta: 1.0037, eta_str: eta:[0.8,1.444]
+user float :: value: 0.954717, error: 0.0055233
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 16.0941, pt_str: pt:[10.0,20.0], eta: 2.16701, eta_str: eta:[2.0,2.5]
+user float :: value: 0.968912, error: 0.0274307
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 34.0985, pt_str: pt:[20.0,35.0], eta: -0.800558, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.944444, error: 0.0257588
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 44.9209, pt_str: pt:[35.0,50.0], eta: -2.68182, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 22.1779, pt_str: pt:[20.0,35.0], eta: -0.978687, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.944444, error: 0.0257588
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 49.0031, pt_str: pt:[35.0,50.0], eta: -1.08138, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.95398, error: 0.0055233
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 41.971, pt_str: pt:[35.0,50.0], eta: 0.649722, eta_str: eta:[0.0,0.8]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 84.4964, pt_str: pt:[50.0,100.0], eta: -0.654311, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 23.0671, pt_str: pt:[20.0,35.0], eta: -2.35703, eta_str: eta:[-2.5,-2.0]
+user float :: value: 0.952448, error: 0.030247
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 90.1379, pt_str: pt:[50.0,100.0], eta: 1.76962, eta_str: eta:[1.566,2.0]
+user float :: value: 0.959677, error: 0.0148881
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 41.1867, pt_str: pt:[35.0,50.0], eta: 2.3386, eta_str: eta:[2.0,2.5]
+user float :: value: 0.939164, error: 0.0101207
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 26.1149, pt_str: pt:[20.0,35.0], eta: -1.69725, eta_str: eta:[-2.0,-1.566]
+user float :: value: 0.918314, error: 0.0244937
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 62.7911, pt_str: pt:[50.0,100.0], eta: 1.34483, eta_str: eta:[0.8,1.444]
+user float :: value: 0.953086, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 51.7536, pt_str: pt:[50.0,100.0], eta: 2.77068, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 11.5458, pt_str: pt:[10.0,20.0], eta: 2.70259, eta_str: 
+user float :: value: 0, error: 0
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 93.9845, pt_str: pt:[50.0,100.0], eta: -0.227061, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.960928, error: 0.00592988
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 53.5983, pt_str: pt:[50.0,100.0], eta: -0.905099, eta_str: eta:[-1.444,-0.8]
+user float :: value: 0.959608, error: 0.00393554
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 53.2065, pt_str: pt:[50.0,100.0], eta: -2.10897, eta_str: eta:[-2.5,-2.0]
+user float :: value: 0.945679, error: 0.0138411
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 37.7544, pt_str: pt:[35.0,50.0], eta: -2.17017, eta_str: eta:[-2.5,-2.0]
+user float :: value: 0.948428, error: 0.0101207
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 25.2192, pt_str: pt:[20.0,35.0], eta: 1.46128, eta_str: eta:[1.444,1.566]
+user float :: value: 1, error: 1
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 110.544, pt_str: pt:[100.0,200.0], eta: 1.40033, eta_str: eta:[0.8,1.444]
+user float :: value: 0.978049, error: 0.0164334
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 35.1716, pt_str: pt:[35.0,50.0], eta: 0.677432, eta_str: eta:[0.0,0.8]
+user float :: value: 0.961153, error: 0.00654155
+
+json_file test: /afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json
+year: 2018, sf_name: mvaEleID-Fall17-noIso-V2-wp80, pt: 18.6732, pt_str: pt:[10.0,20.0], eta: -0.693491, eta_str: eta:[-0.8,0.0]
+user float :: value: 0.94795, error: 0.0318692
+
