@@ -121,7 +121,7 @@ egammaSFModifier = cms.PSet(
     modifierName = cms.string('EGammaSFModifier'),
     filename     = cms.string("/afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json"),
     year         = cms.string("2018"),
-    ID           = cms.string("mvaEleID-Fall17-noIso-V2-wp80")
+    sf_name      = cms.string("mvaEleID-Fall17-noIso-V2-wp80")
 )
 
 

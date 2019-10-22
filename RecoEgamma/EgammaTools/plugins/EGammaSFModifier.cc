@@ -10,23 +10,22 @@ public:
   void modifyObject(pat::Electron& ele) const final;
   void modifyObject(pat::Photon& pho) const final;
 private:
-  std::string sf_name;
+  std::string json_file;
   std::string year;
-  std::string ID;
+  std::string sf_name;
 };
 
 EGammaSFModifier::EGammaSFModifier(const edm::ParameterSet& conf):
   ModifyObjectValueBase(conf),
-  sf_name(conf.getParameter<std::string>("filename")), 
+  json_file(conf.getParameter<std::string>("filename")), 
   year(conf.getParameter<std::string>("year")), 
-  ID(conf.getParameter<std::string>("ID")) {
+  sf_name(conf.getParameter<std::string>("sf_name")) {
 
-  // TODO ASSERTIONS
-  //if(1){
-  //}else{
-    //throw cms::Exception("ConfigError") <<"Error constructing EGammaSFModifier, sf file name "<<sfName<<" not valid";
-  //} 
-  if (year!="2016" and year!="2017" and year!="2018"){
+  // ASSERTIONS
+  if(not static_cast<bool>(std::ifstream(json_file))) { 
+    throw cms::Exception("ConfigError") << "Error constructing EGammaSFModifier, sf file " << json_file << " doesn't exist" << std::endl;
+  } 
+  if (year!="2016" and year!="2017" and year!="2018") {
     throw cms::Exception("ConfigError") <<"Error constructing EGammaSFModifier, year "<< year << " not valid" << std::endl;
   } 
 }
@@ -42,16 +41,7 @@ void EGammaSFModifier::modifyObject(pat::Electron& ele)const
   std::string eta_str;
 
   SF_Reader sf;
-  sf.read_json("./json_converter_egID/jsons/run2_eleIDs.json");
-  //std::cout << sf_name() << std::endl;
-  std::cout << "sf_name test: " << sf_name << std::endl;
-  //std::cout << "sf_name() test: " << sf_name() << std::endl;
-  //std::cout << "this->_sf_name test: " << this->_sf_name << std::endl;
-  //std::cout << "this->sf_name() test: " << this->sf_name() << std::endl;
-  //sf.read_json( sf_name() );
-  
-  //std::string year = "2018";
-  //std::string ID = "mvaEleID-Fall17-noIso-V2-wp80";
+  sf.read_json( json_file );
 
   //// FIND RIGHT PT BIN
   // TODO maybe put this in a function: get_bin () ?
@@ -74,22 +64,25 @@ void EGammaSFModifier::modifyObject(pat::Electron& ele)const
   if (pt > 200.0 && pt < 500.0) {pt_str = "pt:[200.0,500.0]";}
 
 
-  double value = sf.value (year, ID, pt_str, eta_str);
-  double error = sf.error (year, ID, pt_str, eta_str);
+  double value = sf.value (year, sf_name, pt_str, eta_str);
+  double error = sf.error (year, sf_name, pt_str, eta_str);
 
-  ele.addUserFloat(ID + "_value", value);
-  ele.addUserFloat(ID + "_error", error);
+  ele.addUserFloat(sf_name + "_value", value);
+  ele.addUserFloat(sf_name + "_error", error);
   ele.addUserFloat("daje",1);
 
   // TESTING 
   bool test = true; 
+
   if (test == true) {
-    std::cout << "year: " << year << ", ID: " <<  ID << ", pt: " <<  pt << ", pt_str: " << pt_str << ", eta: " <<  eta << ", eta_str: " <<  eta_str;
+    std::cout << "json_file test: " << json_file << std::endl;
+
+    std::cout << "year: " << year << ", sf_name: " <<  sf_name << ", pt: " <<  pt << ", pt_str: " << pt_str << ", eta: " <<  eta << ", eta_str: " <<  eta_str;
     std::cout << ", value: " << value;
     std::cout << ", error: " << error << std::endl;
 
-    std::cout << "user float :: value: " << ele.userFloat(ID + "_value");
-    std::cout << ", error: " << ele.userFloat(ID + "_error") << std::endl << std::endl;
+    std::cout << "user float :: value: " << ele.userFloat(sf_name + "_value");
+    std::cout << ", error: " << ele.userFloat(sf_name + "_error") << std::endl << std::endl;
   }
 						
 }
