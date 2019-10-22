@@ -9,9 +9,13 @@ public:
   
   void modifyObject(pat::Electron& ele) const final;
   void modifyObject(pat::Photon& pho) const final;
-  std::string sfName = conf.getParameter<std::string>("filename");
-  std::string year   = conf.getParameter<std::string>("year"    );
-  std::string ID     = conf.getParameter<std::string>("ID"      );
+  std::string sf_name() const { return _sf_name; };
+  //std::string year()    const { return _year; };
+  //std::string ID()      const { return _ID; };
+private:
+  std::string _sf_name;
+  std::string year;
+  std::string ID;
   
 
 };
@@ -19,18 +23,23 @@ public:
 EGammaSFModifier::EGammaSFModifier(const edm::ParameterSet& conf):
   ModifyObjectValueBase(conf)
 {
-  std::string sfName = conf.getParameter<std::string>("filename");
-  std::string year   = conf.getParameter<std::string>("year"    );
-  std::string ID     = conf.getParameter<std::string>("ID"      );
+  std::string _sf_name = conf.getParameter<std::string>("filename");
+  std::string year    = conf.getParameter<std::string>("year"    );
+  std::string ID      = conf.getParameter<std::string>("ID"      );
 
-  std::cout << sfName << std::endl;
-  std::cout << year   << std::endl;
-  std::cout << ID     << std::endl;
+  //std::string sfName = conf.getParameter<std::string>("filename");
+  //std::string year   = conf.getParameter<std::string>("year"    );
+  //std::string ID     = conf.getParameter<std::string>("ID"      );
 
-  if(1){
-  }else{
-    throw cms::Exception("ConfigError") <<"Error constructing EGammaSFModifier, sf file name "<<sfName<<" not valid";
-  } 
+  //std::cout << sfName << std::endl;
+  //std::cout << year   << std::endl;
+  //std::cout << ID     << std::endl;
+
+  // TODO ASSERTIONS
+  //if(1){
+  //}else{
+    //throw cms::Exception("ConfigError") <<"Error constructing EGammaSFModifier, sf file name "<<sfName<<" not valid";
+  //} 
   //if not (year=="2016" or year=="2017" or year=="2018"){
     //throw cms::Exception("ConfigError") <<"Error constructing EGammaSFModifier, year "<< year << " not valid" << std::endl;
   //} 
@@ -49,9 +58,13 @@ void EGammaSFModifier::modifyObject(pat::Electron& ele)const
 
   SF_Reader sf;
   sf.read_json("./json_converter_egID/jsons/run2_eleIDs.json");
-  //std::string year = "2018";
+  //std::cout << sf_name() << std::endl;
+  std::cout << "_sf_name test: " << _sf_name << std::endl;
+  std::cout << "sf_name() test: " << sf_name() << std::endl;
+  //sf.read_json( sf_name() );
   
-  std::string ID = "mvaEleID-Fall17-noIso-V2-wp80";
+  //std::string year = "2018";
+  //std::string ID = "mvaEleID-Fall17-noIso-V2-wp80";
 
   //// FIND RIGHT PT BIN
   // TODO maybe put this in a function: get_bin () ?
