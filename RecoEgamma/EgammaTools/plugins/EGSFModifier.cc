@@ -17,7 +17,7 @@ EGSFModifier::EGSFModifier(const edm::ParameterSet& conf):
   ModifyObjectValueBase(conf)
 {
   //std::string sfName="filename";
-  std::string sfName="run2_eleIDs.json";
+  std::string sfName="../json_converter_egID/jsons/run2_eleIDs.json";
   if(1){
   }else{
     throw cms::Exception("ConfigError") <<"Error constructing EGSFModifier, sf file name "<<sfName<<" not valid";
