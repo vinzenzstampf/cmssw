@@ -117,12 +117,16 @@ egamma8XLegacyEtScaleSysModifier = cms.PSet(
 # Modifier to add ID Scale Factors as userFloat reading them
 # from json file
 ############################################################
-egammaSFModifier = cms.PSet(
-    modifierName = cms.string('EGammaSFModifier'),
-    filename     = cms.string("/afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json"),
-    year         = cms.string("2018"),
-    ele_sf_name  = cms.string("mvaEleID-Fall17-noIso-V2-wp80"),
-    pho_sf_name  = cms.string("mvaEleID-Fall17-noIso-V2-wp80")
+egammaSFModifier  = cms.PSet(
+    modifierName  = cms.string('EGammaSFModifier'),
+    filename      = cms.string("/afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json"),
+    year          = cms.string("2018"),
+    ele_sf_name   = cms.string("mvaEleID-Fall17-noIso-V2-wp80"),
+    ele_pt_bndrs  = cms.vdouble(10., 20., 35.0, 50., 100., 200., 500.),
+    ele_eta_bndrs = cms.vdouble(-2.5, -2.0, -1.566, -1.444, -0.8, 0.0, 0.8, 1.444, 1.566, 2.0, 2.5), 
+    pho_sf_name   = cms.string("mvaEleID-Fall17-noIso-V2-wp80"),
+    pho_pt_bndrs  = cms.vdouble(10., 20., 35.0, 50., 100., 200., 500.),
+    pho_eta_bndrs = cms.vdouble(-2.5, -2.0, -1.566, -1.444, -0.8, 0.0, 0.8, 1.444, 1.566, 2.0, 2.5) 
 )
 
 
