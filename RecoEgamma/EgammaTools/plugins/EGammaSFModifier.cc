@@ -3,7 +3,7 @@
 #include "RecoEgamma/EgammaTools/interface/json_wrapper.h"
 #include <bits/stdc++.h>
 
-// utilities
+// UTILITIES
 std::string stripZeros(std::string bin_str);
 std::vector<std::string> chooseCategory( double pt, std::vector<double> pt_bndrs, double eta, std::vector<double> eta_bndrs); 
 
@@ -66,23 +66,6 @@ void EGammaSFModifier::modifyObject(pat::Electron& ele) const {
 
   ele.addUserFloat(ele_sf_name + "_value", eleUserFloatValue);
   ele.addUserFloat(ele_sf_name + "_error", eleUserFloatError);
-
-  // TESTING 
-  bool test = true; 
-
-  if (test == true) {
-    //std::cout << "json_file test: " << json_file << std::endl;
-    std::cout << "ELECTRON" << std::endl;
-
-    std::cout << "test cat" << std::endl << "pt: " << ele.pt() << ", pt_str: " << ele_pt_eta_str[0] << ", eta: " << ele.eta() << ", eta_str: " << ele_pt_eta_str[1];
-    std::cout << ", value: " << sf.value(year, ele_sf_name, ele_pt_eta_str[0], ele_pt_eta_str[1]) << ", error: " << sf.error(year, ele_sf_name, ele_pt_eta_str[0], ele_pt_eta_str[1]) << std::endl;
-
-    //std::cout << "year: " << year << ", ele_sf_name: " <<  ele_sf_name << std::endl;
-    //std::cout << "pt: " <<  ele.pt() << ", pt_str: " << ele_pt_str << ", eta: " <<  ele.eta() << ", eta_str: " <<  ele_eta_str << std::endl;
-
-    std::cout << "user float :: value: " << ele.userFloat(ele_sf_name + "_value");
-    std::cout << ", error: " << ele.userFloat(ele_sf_name + "_error") << std::endl << std::endl;
-  }
 }
 
 void EGammaSFModifier::modifyObject(pat::Photon& pho) const {
@@ -103,90 +86,71 @@ void EGammaSFModifier::modifyObject(pat::Photon& pho) const {
 
   pho.addUserFloat(pho_sf_name + "_value", phoUserFloatValue);
   pho.addUserFloat(pho_sf_name + "_error", phoUserFloatError);
-
-  // TESTING 
-  bool test = true; 
-
-  if (test == true) {
-    std::cout << "GAMMA" << std::endl;
- 
-    std::vector<std::string> pho_pt_eta_str {chooseCategory(pho.pt(), pho_pt_bndrs, pho.eta(), pho_eta_bndrs)};
-
-    std::cout << "test cat" << std::endl << "pt: " << pho.pt() << ", pt_str: " << pho_pt_eta_str[0] << ", eta: " << pho.eta() << ", eta_str: " << pho_pt_eta_str[1];
-    std::cout << ", value: " << sf.value(year, pho_sf_name, pho_pt_eta_str[0], pho_pt_eta_str[1]) << ", error: " << sf.error(year, pho_sf_name, pho_pt_eta_str[0], pho_pt_eta_str[1]) << std::endl;
-
-    std::cout << "user float :: value: " << pho.userFloat(pho_sf_name + "_value");
-    std::cout << ", error: " << pho.userFloat(pho_sf_name + "_error") << std::endl << std::endl;
-  }
 }
 
 string stripZeros (string bin_str) {
-    while (bin_str[bin_str.length() - 1] == '0' and bin_str[bin_str.length() - 2] != '.') {
-        bin_str.erase(bin_str.length() - 1); 
-    }
-    return bin_str;
+  while (bin_str[bin_str.length() - 1] == '0' and bin_str[bin_str.length() - 2] != '.') {
+    bin_str.erase(bin_str.length() - 1); 
+  }
+  return bin_str;
 }
 
 std::vector<std::string> chooseCategory( double pt, std::vector<double> pt_bndrs, double eta, std::vector<double> eta_bndrs) {
 
-        std::string pt_str = "nope";
-        std::string pt_lower_edge = "nope";
-        std::string pt_upper_edge = "nope";
+  std::string pt_str = "nope";
+  std::string pt_lower_edge = "nope";
+  std::string pt_upper_edge = "nope";
 
-        for( int n = 0 ; n < ( int ) pt_bndrs.size() ; n++ ) {
-            //std::cout << std::to_string( pt_bndrs[n] ) << ", ";
+  for( int n = 0 ; n < ( int ) pt_bndrs.size() ; n++ ) {
 
-            // TREATING UNDER/OVERFLOW 
-            if ( ( double ) pt > pt_bndrs[pt_bndrs.size()-1] or ( double ) pt < pt_bndrs[0] ) { 
-                pt_str = "under/overflow"; pt_lower_edge = "under/overflow"; pt_upper_edge = "under/overflow"; 
-            }
-            
-            // REGULAR CASE
-            else if ( ( double ) pt > pt_bndrs[pt_bndrs.size() - n - 1] ) {
-                pt_lower_edge = std::to_string( pt_bndrs[pt_bndrs.size() - n - 1] );
-                pt_upper_edge = std::to_string( pt_bndrs[pt_bndrs.size() - n] );
-                pt_str = "pt:[" + stripZeros(pt_lower_edge) + "," + stripZeros(pt_upper_edge) + "]";
-                //std::cout << ", pt_low: " << pt_lower_edge << ", pt_up: " << pt_upper_edge << std::endl;
-                break;
-            }
-        }
-
-        // PT BIN ASSERTION
-        if (pt_str == "nope" or pt_lower_edge == "nope" or pt_upper_edge == "nope") { 
-            throw cms::Exception("ConfigError") << "Error constructing EGammaSFModifier, can't construct pt bin" << std::endl;
-        }
-
-        std::string eta_str = "nope";
-        std::string eta_lower_edge = "nope";
-        std::string eta_upper_edge = "nope";
-
-        for( int n = 0 ; n < ( int ) eta_bndrs.size() ; n++ ) {
-            //std::cout << std::to_string( eta_bndrs[n] ) << ", ";
-
-            // TREATING UNDER/OVERFLOW 
-            if ( ( double ) eta > eta_bndrs[eta_bndrs.size()-1] or ( double ) eta < eta_bndrs[0] ) { 
-                eta_str = "under/overflow"; eta_lower_edge = "under/overflow"; eta_upper_edge = "under/overflow"; 
-            }
-
-            // REGULAR CASE
-            if ( ( double ) eta > eta_bndrs[eta_bndrs.size() - n - 1] ) {
-                eta_lower_edge = std::to_string( eta_bndrs[eta_bndrs.size() - n - 1] );
-                eta_upper_edge = std::to_string( eta_bndrs[eta_bndrs.size() - n] );
-                eta_str = "eta:[" + stripZeros(eta_lower_edge) + "," + stripZeros(eta_upper_edge) + "]";
-                //std::cout << ", eta_low: " << eta_lower_edge << ", eta_up: " << eta_upper_edge << std::endl;
-                break;
-            }
-        }
-
-        // ETA BIN ASSERTION
-        if (eta_str == "nope" or eta_lower_edge == "nope" or eta_upper_edge == "nope") { 
-            throw cms::Exception("ConfigError") << "Error constructing EGammaSFModifier, can't construct eta bin" << std::endl;
-        }
-
-        std::vector<std::string> cat {pt_str, eta_str};
-
-        return cat;
+    // TREATING UNDER/OVERFLOW 
+    if ( ( double ) pt > pt_bndrs[pt_bndrs.size()-1] or ( double ) pt < pt_bndrs[0] ) { 
+      pt_str = "under/overflow"; pt_lower_edge = "under/overflow"; pt_upper_edge = "under/overflow"; 
     }
+    
+    // REGULAR CASE
+    else if ( ( double ) pt > pt_bndrs[pt_bndrs.size() - n - 1] ) {
+      pt_lower_edge = std::to_string( pt_bndrs[pt_bndrs.size() - n - 1] );
+      pt_upper_edge = std::to_string( pt_bndrs[pt_bndrs.size() - n] );
+      pt_str = "pt:[" + stripZeros(pt_lower_edge) + "," + stripZeros(pt_upper_edge) + "]";
+      break;
+    }
+  }
+
+  // PT BIN ASSERTION
+  if (pt_str == "nope" or pt_lower_edge == "nope" or pt_upper_edge == "nope") { 
+    throw cms::Exception("ConfigError") << "Error constructing EGammaSFModifier, can't construct pt bin" << std::endl;
+  }
+
+  std::string eta_str = "nope";
+  std::string eta_lower_edge = "nope";
+  std::string eta_upper_edge = "nope";
+
+  for( int n = 0 ; n < ( int ) eta_bndrs.size() ; n++ ) {
+
+    // TREATING UNDER/OVERFLOW 
+    if ( ( double ) eta > eta_bndrs[eta_bndrs.size()-1] or ( double ) eta < eta_bndrs[0] ) { 
+      eta_str = "under/overflow"; eta_lower_edge = "under/overflow"; eta_upper_edge = "under/overflow"; 
+    }
+
+    // REGULAR CASE
+    if ( ( double ) eta > eta_bndrs[eta_bndrs.size() - n - 1] ) {
+      eta_lower_edge = std::to_string( eta_bndrs[eta_bndrs.size() - n - 1] );
+      eta_upper_edge = std::to_string( eta_bndrs[eta_bndrs.size() - n] );
+      eta_str = "eta:[" + stripZeros(eta_lower_edge) + "," + stripZeros(eta_upper_edge) + "]";
+      break;
+    }
+  }
+
+  // ETA BIN ASSERTION
+  if (eta_str == "nope" or eta_lower_edge == "nope" or eta_upper_edge == "nope") { 
+    throw cms::Exception("ConfigError") << "Error constructing EGammaSFModifier, can't construct eta bin" << std::endl;
+  }
+
+  std::vector<std::string> cat {pt_str, eta_str};
+
+  return cat;
+}
 
 DEFINE_EDM_PLUGIN(ModifyObjectValueFactory,
 		  EGammaSFModifier,

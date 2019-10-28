@@ -1,4 +1,5 @@
 import FWCore.ParameterSet.Config as cms
+from os import environ as env
 
 #electron mva ids
 import RecoEgamma.ElectronIdentification.Identification.mvaElectronID_Spring16_GeneralPurpose_V1_cff as ele_spring16_gp_v1
@@ -119,7 +120,7 @@ egamma8XLegacyEtScaleSysModifier = cms.PSet(
 ############################################################
 egammaSFModifier  = cms.PSet(
     modifierName  = cms.string('EGammaSFModifier'),
-    filename      = cms.string("/afs/cern.ch/user/v/vstampf/CMSSW_10_2_14/src/RecoEgamma/EgammaTools/json_converter_egID/jsons/run2_eleIDs.json"),
+    filename      = cms.string(env['CMSSW_BASE'] + "/src/RecoEgamma/EgammaTools/data/run2_eleIDs.json"),
     year          = cms.string("2018"),
     ele_sf_name   = cms.string("mvaEleID-Fall17-noIso-V2-wp80"),
     ele_pt_bndrs  = cms.vdouble(10., 20., 35.0, 50., 100., 200., 500.),
