@@ -25,6 +25,13 @@ private:
   std::vector<double> pho_pt_bndrs;
   std::vector<double> ele_eta_bndrs;
   std::vector<double> pho_eta_bndrs;
+
+  SF_Reader sf;
+  SF_Reader getSF() const;
+};
+
+SF_Reader EGammaSFModifier::getSF() const{
+  return sf;
 };
 
 EGammaSFModifier::EGammaSFModifier(const edm::ParameterSet& conf):
@@ -46,22 +53,20 @@ EGammaSFModifier::EGammaSFModifier(const edm::ParameterSet& conf):
   if (year!="2016" and year!="2017" and year!="2018") {
     throw cms::Exception("ConfigError") <<"Error constructing EGammaSFModifier, year "<< year << " not valid" << std::endl;
   } 
+  sf.read_json( json_file );
 }
 
 void EGammaSFModifier::modifyObject(pat::Electron& ele) const {
 
   std::vector<std::string> ele_pt_eta_str {chooseCategory(ele.pt(), ele_pt_bndrs, ele.eta(), ele_eta_bndrs)};
 
-  SF_Reader sf;
-  sf.read_json( json_file );
-
   double eleUserFloatValue = -99;
   double eleUserFloatError = -99;
 
   if (ele_pt_eta_str[0] == "under/overflow" or ele_pt_eta_str[1] == "under/overflow") { eleUserFloatValue = 1.0; eleUserFloatError = 0.00001;}
   else {
-    eleUserFloatValue = sf.value(year, ele_sf_name, ele_pt_eta_str[0], ele_pt_eta_str[1]);
-    eleUserFloatError = sf.error(year, ele_sf_name, ele_pt_eta_str[0], ele_pt_eta_str[1]);
+    eleUserFloatValue = getSF().value(year, ele_sf_name, ele_pt_eta_str[0], ele_pt_eta_str[1]);
+    eleUserFloatError = getSF().error(year, ele_sf_name, ele_pt_eta_str[0], ele_pt_eta_str[1]);
   }
 
   ele.addUserFloat(ele_sf_name + "_value", eleUserFloatValue);
@@ -72,16 +77,13 @@ void EGammaSFModifier::modifyObject(pat::Photon& pho) const {
 
   std::vector<std::string> pho_pt_eta_str {chooseCategory(pho.pt(), pho_pt_bndrs, pho.eta(), pho_eta_bndrs)};
 
-  SF_Reader sf;
-  sf.read_json( json_file );
-
   double phoUserFloatValue = -99;
   double phoUserFloatError = -99;
 
   if (pho_pt_eta_str[0] == "under/overflow" or pho_pt_eta_str[1] == "under/overflow") { phoUserFloatValue = 1.0; phoUserFloatError = 0.00001;}
   else {
-    phoUserFloatValue = sf.value(year, pho_sf_name, pho_pt_eta_str[0], pho_pt_eta_str[1]);
-    phoUserFloatError = sf.error(year, pho_sf_name, pho_pt_eta_str[0], pho_pt_eta_str[1]);
+    phoUserFloatValue = getSF().value(year, pho_sf_name, pho_pt_eta_str[0], pho_pt_eta_str[1]);
+    phoUserFloatError = getSF().error(year, pho_sf_name, pho_pt_eta_str[0], pho_pt_eta_str[1]);
   }
 
   pho.addUserFloat(pho_sf_name + "_value", phoUserFloatValue);
