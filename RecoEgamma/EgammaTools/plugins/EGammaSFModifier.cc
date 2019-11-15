@@ -69,9 +69,6 @@ void EGammaSFModifier::modifyObject(pat::Electron& ele) const {
 
   ele.addUserFloat(ele_sf_name + "_value", eleUserFloatValue);
   ele.addUserFloat(ele_sf_name + "_error", eleUserFloatError);
-
-  std::cout << "test cat" << std::endl << "pt: " << ele.pt() << ", pt_str: " << ele_pt_eta_str[0] << ", eta: " << ele.eta() << ", eta_str: " << ele_pt_eta_str[1];
-  std::cout << ", value: " << sf.value(year, ele_sf_name, ele_pt_eta_str[0], ele_pt_eta_str[1]) << ", error: " << sf.error(year, ele_sf_name, ele_pt_eta_str[0], ele_pt_eta_str[1]) << std::endl;
 }
 
 void EGammaSFModifier::modifyObject(pat::Photon& pho) const {
@@ -87,9 +84,6 @@ void EGammaSFModifier::modifyObject(pat::Photon& pho) const {
 
   pho.addUserFloat(pho_sf_name + "_value", phoUserFloatValue);
   pho.addUserFloat(pho_sf_name + "_error", phoUserFloatError);
-
-  std::cout << "test cat" << std::endl << "pt: " << pho.pt() << ", pt_str: " << pho_pt_eta_str[0] << ", eta: " << pho.eta() << ", eta_str: " << pho_pt_eta_str[1];
-  std::cout << ", value: " << sf.value(year, pho_sf_name, pho_pt_eta_str[0], pho_pt_eta_str[1]) << ", error: " << sf.error(year, pho_sf_name, pho_pt_eta_str[0], pho_pt_eta_str[1]) << std::endl;
 }
 
 string stripZeros (string bin_str) {
