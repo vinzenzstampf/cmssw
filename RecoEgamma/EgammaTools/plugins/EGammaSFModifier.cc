@@ -63,6 +63,7 @@ void EGammaSFModifier::modifyObject(pat::Electron& ele) const {
   double eleUserFloatValue = -99;
   double eleUserFloatError = -99;
 
+
   // IF UNDER/OVERFLOW TAKE THE CLOSEST BIN
   eleUserFloatValue = getSF().value(year, ele_sf_name, ele_pt_eta_str[0], ele_pt_eta_str[1]);
   eleUserFloatError = getSF().error(year, ele_sf_name, ele_pt_eta_str[0], ele_pt_eta_str[1]);
@@ -77,6 +78,7 @@ void EGammaSFModifier::modifyObject(pat::Photon& pho) const {
 
   double phoUserFloatValue = -99;
   double phoUserFloatError = -99;
+
 
   // IF UNDER/OVERFLOW TAKE THE CLOSEST BIN
   phoUserFloatValue = getSF().value(year, pho_sf_name, pho_pt_eta_str[0], pho_pt_eta_str[1]);
